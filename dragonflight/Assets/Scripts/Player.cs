@@ -16,4 +16,13 @@ public class Player : MonoBehaviour
 
         transform.Translate(distanceX, distanceY, 0);
     }
+
+    // private void OnTriggerEnter2D(Collider2D collision)
+    // {
+    //     if(collision.CompareTag("Enemy"))
+    //     {
+    //         Destroy(collision.gameObject);
+    //         Destroy(gameObject);
+    //     }
+    // }
 }
