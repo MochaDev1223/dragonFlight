@@ -35,6 +35,8 @@ public class Bullet : MonoBehaviour
             Destroy(gameObject);         
 
             SoundManager.instance.SoundDie();
+
+            GameManager.instance.AddScore(100);
                
         }
     }
